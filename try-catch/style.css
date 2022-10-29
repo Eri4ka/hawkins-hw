@@ -7,10 +7,8 @@
 }
 
 form {
-  display: flex;
   align-items: center;
   margin-bottom: 20px;
-  flex-wrap: wrap;
 }
 
 .input-name {
@@ -27,6 +25,7 @@ form {
   padding: 16.5px 14px;
   margin-right: 20px;
   border-radius: 8px;
+  margin-bottom: 5px;
 }
 
 .load-button {
@@ -112,7 +111,5 @@ form {
 }
 
 .error {
-  display: none;
-  margin-top: 5px;
   color: red;
 }
