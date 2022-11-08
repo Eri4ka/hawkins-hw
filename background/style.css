@@ -1,0 +1,37 @@
+.body {
+    position: relative;
+    /* transition: .3s; */
+}
+
+.night {
+    background-color: black;
+}
+
+.button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: yellow;
+    box-shadow: 0 0 15px 15px rgb(255 255 0 / 15%);
+    cursor: pointer;
+}
+
+.button-night {
+    background-color: white;
+    box-shadow: 10px 3px 15px 5px rgb(255 255 255 / 15%);
+}
+
+.button-night::before {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    top: -10px;
+    right: 25px;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    cursor: default;
+}
